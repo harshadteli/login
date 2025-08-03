@@ -17,7 +17,7 @@
       font-family: 'Segoe UI', sans-serif;
       /* background: linear-gradient(120deg, #1f1c2c, #928dab); */
       /* background-color: white; */
-      background-image: url('login-back.jpg');
+      background-image: url('../assets/images/login-back.jpg');
       color: #fff;
       min-height: 100vh;
       display: flex;
@@ -28,6 +28,7 @@
     .container {
       width: 90%;
       max-width: 450px;
+      height: auto;
       background: rgba(0, 0, 0, 0.85);
       padding: 30px;
       border-radius: 12px;
@@ -166,7 +167,7 @@
     <input type="password" id="password" placeholder="Create New Password">
     <input type="password" id="confirmPassword" placeholder="Confirm Password">
     <button id="signinbtn" onclick="validateSignUp()">Sign Up</button>
-    <audio src="2.mp3" id="signinaud" preload="auto"></audio>
+    <audio src="../assets/AI/2.mp3" id="signinaud" preload="auto"></audio>
     <script>
       const signinbtn = document.getElementById("signinbtn");
       const signinaud = document.getElementById("signinaud");
@@ -175,7 +176,7 @@
       });
     </script>
     <button id="signupbtn" onclick="goToSignIn()">Go to Sign In</button>
-    <audio src="2.mp3" id="signupaud" preload="auto"></audio>
+    <audio src="../assets/AI/2.mp3" id="signupaud" preload="auto"></audio>
     <script>
       const signupbtn = document.getElementById("signupbtn");
       const signupaud = document.getElementById("signupaud");
@@ -208,13 +209,15 @@
       <input type="file" id="profilePhoto" accept="image/*">
       <input type="text" id="skills" placeholder="Your Skills">
       <select id="favBot">
-        <option value="">Select Course</option>
-        <option value="Chat Genius">Chat Genius</option>
-        <option value="TaskMaster AI">TaskMaster AI</option>
-        <option value="Scheduler Pro">Scheduler Pro</option>
+        <option value="">Select Your Proffession</option>
+        <option value="Chat Genius">Student</option>
+        <option value="TaskMaster AI">Programmer</option>
+        <option value="Scheduler Pro">Learner</option>
+        <option value="Scheduler Pro">Teacher</option>
+        <option value="TaskMaster AI">Other</option>
       </select>
       <button id="created" type="submit">Create Profile</button>
-      <audio src="4.mp3" preload="auto" id="createaud"></audio>
+      <audio src="../assets/AI/4.mp3" preload="auto" id="createaud"></audio>
       <script>
         const created = document.getElementById("created");
         const createaud = document.getElementById("createaud");
@@ -232,21 +235,141 @@
     <p id="favBotDisplay">Favorite Bot: —</p>
     <div class="chatbot">
       <h4>💬 Programming Skills Guider <span>🟢 Online</span></h4>
-      <p>Real-time conversations powered by HarshTech.</p>
-     <a href="httsp://github.com/harshadteli/"> <button>Start Conversation</button></a>
+      <p>This assistent that help to user who can interest in to learning the Programming Language and to display the best results from youtube</p>
+     <a href="https://harshadteli.github.io/web-product6/"> <button>Start Conversation</button></a>
     </div>
     <div class="chatbot">
-      <h4>🗓️ TaskMaster AI <span>🟢 Online</span></h4>
-      <p>Organize your tasks with smart automation.</p>
-      <button>Start Conversation</button>
+      <h4>📲 Web-Tools Assistent <span>🟢 Online</span></h4>
+      <p>According to your requirement it is help to accessing free web tools & app instead of without installing this apps.</p>
+      <a href="https://harshadteli.github.io/web-product7/"> <button>Start Conversation</button></a>
     </div>
     <div class="chatbot">
-      <h4>📅 Scheduler Pro <span>🟢 Online</span></h4>
-      <p>Smart scheduler for meetings and events.</p>
-      <button>Start Conversation</button>
+      <h4>💬 Programming Skills Advanced Assistent <span>🟢 Online</span></h4>
+      <p>This assistent can be advanced version for to guide and help to user who interest in the learning the various
+        programming skills.also it can be help to decide which language you can decide to learn.
+        It is specially design for the beginner.
+      </p>
+     <a href="https://harshadteli.github.io/web-product8/"> <button>Start Conversation</button></a>
+    </div>
+    <div class="chatbot">
+      <h4>🤹 Gaming Assistent Chatbot <span>🟢 Online</span></h4>
+      <p>It is include to various online games that help to user in quick playing the games without installing there apps.
+      </p>
+     <a href="https://harshadteli.github.io/web-product9/"> <button>Start Playing</button></a>
+    </div>
+    <div class="chatbot">
+      <h4>🔊 English-Speaking Chatbot<span>🟢 Online</span></h4>
+      <p>This assistent can be help to improve your english for asking the basic questionss and also guide at each questions depending upon user communication skills.
+      </p>
+     <a href="https://harshadteli.github.io/web-product10/"> <button>Start Conversation</button></a>
+    </div>
+    <div class="chatbot">
+      <h4>📅 We-Advanced Calculaor<span>🟢 Online</span></h4>
+      <p>This calculator can be perform the Airthmetic operations but it can more add features that it takes voice command and 
+        it perform opeartions correctly without touching the screen.
+      </p>
+     <a href="https://harshadteli.github.io/web-product1/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🤖 Resume Builder Application<span>🟢 Online</span></h4>
+      <p>Thiis AI application can build your resume automatically by entering appropriate information.
+      </p>
+     <a href="https://harshadteli.github.io/web-product2/"> <button>Start Creating</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🤖 Astrobot<span>🟢 Online</span></h4>
+      <p>This astrobot includes some emotions of humans that help to stay always happy.
+      </p>
+     <a href="https://harshadteli.github.io/web-product3/"> <button>Start Conversation</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🔊 English-Speaking Chatbot<span>🟢 Online</span></h4>
+      <p>This assistent can be help to improve your english for asking the basic questionss and also guide at each questions depending upon user communication skills.
+      </p>
+     <a href="https://harshadteli.github.io/web-product10/"> <button>Start Conversation</button></a>
+    </div>
+     <div class="chatbot">
+      <h4> <div class="chatbot">
+      <h4>📸 Web-Camera Assistent<span>🟢 Online</span></h4>
+      <p>This application can control your camera  through web using input voice command. This user-friendly AI Application do not use or 
+        store your pictures and photos illegally.So use it friendly.
+      </p>
+     <a href="https://harshadteli.github.io/web-product4/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>📃 Terminal<span>🟢 Online</span></h4>
+      <p>This terminal is made by Harshad Teli to taking the voice command from user and give the output.
+      </p>
+     <a href="https://harshadteli.github.io/web-product5/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>⚙️ Web-Excel<span>🟢 Online</span></h4>
+      <p>You can use this excel on your browser with AI based integration.
+      </p>
+     <a href="https://harshadteli.github.io/web-excel/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>⚙️ Web-Word Application<span>🟢 Online</span></h4>
+      <p>You can use this word on your browser with AI based integration.
+      </p>
+     <a href="https://harshadteli.github.io/web-word/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🤖 Mezo Assistent<span>🟢 Online</span></h4>
+      <p>Hii... I am Mezo your basic assistent.
+      </p>
+     <a href="https://harshadteli.github.io/web-product11/"> <button>Start Conversation</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🤖 Simple Chatbot<span>🟢 Online</span></h4>
+      <p>This is simple Chatbot
+      </p>
+     <a href="https://harshadteli.github.io/web-product12/"> <button>Start Conversation</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🤖 JARVIS<span>🟢 Online</span></h4>
+      <p>Hii..,I am Jarvis
+      </p>
+     <a href="https://harshadteli.github.io/jarvis-assistent-aitechnology/"> <button>Start Conversation</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>⏰ Web Smart Clock<span>🟢 Online</span></h4>
+      <p>This Application can you use your browser instead of installing there apps.
+      </p>
+     <a href="https://harshadteli.github.io/web-smart-clock/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>📃 Web Task Manger<span>🟢 Online</span></h4>
+      <p>This Application can you use your browser instead of installing there apps.
+      </p>
+     <a href="https://harshadteli.github.io/web-smart-task-manager/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🗓️ Web-Calender<span>🟢 Online</span></h4>
+      <p>This Application can you use your browser instead of installing there apps.
+      </p>
+     <a href="https://harshadteli.github.io/web-smart-calender/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>⚙️ HarshTech Code Editor<span>🟢 Online</span></h4>
+      <p>This Application can you use your browser instead of installing there apps.
+      </p>
+     <a href="https://harshadteli.github.io/harshtech-code-editor/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>🐉 Web-Dragon<span>🟢 Online</span></h4>
+      <p>This is awsome dragon open in your browser.
+      </p>
+     <a href="https://harshadteli.github.io/web-product13/"> <button>Start Using</button></a>
+    </div>
+     <div class="chatbot">
+      <h4>👾 Web-Monster<span>🟢 Online</span></h4>
+      <p>This is awsome dragon open in your browser.
+      </p>
+     <a href="https://harshadteli.github.io/web-product15/"> <button>Start Using</button></a>
     </div>
     <button id="logbtn" class="logout-btn" onclick="logout()">Logout</button>
-    <audio src="5.mp3" id="logaud"></audio>
+    <audio src="../assets/AI/5.mp3" id="logaud"></audio>
     <script>
       const logbtn = document.getElementById("logbtn");
       const logaud = document.getElementById("logaud");
@@ -346,7 +469,7 @@
       profileSetup.classList.remove("active");
       dashboardPage.classList.add("active");
       document.getElementById("dashName").textContent = "Hello, " + localStorage.getItem("username");
-      document.getElementById("favBotDisplay").textContent = "Favorite Bot: " + (localStorage.getItem("favBot") || "—");
+      document.getElementById("favBotDisplay").textContent = "User Proffession: " + (localStorage.getItem("favBot") || "—");
       document.getElementById("dashImage").src = localStorage.getItem("userPhoto") || "https://i.ibb.co/TkR0ZTx/default-user.png";
     }
 
